@@ -22,8 +22,8 @@ public:
 class Lingkaran:public bidangDatar { /*lengkapi disini*/
 public:
 	void input() {
-		cout << "Lingkaran dibuat";
-		cout << "\nMasukan jejari";
+		cout << "Lingkaran dibuat ";
+		cout << "\nMasukan jejari : ";
 		int r;
 		cin >> r;
 		setX(r);
@@ -40,8 +40,8 @@ public:
 
 class Bujursangkar:public bidangDatar { /*lengkapi disini*/
 	void input() {
-		cout << "\nBujursangkar dibuat";
-		cout << "\nMasukan sisi";
+		cout << "\nBujursangkar dibuat ";
+		cout << "\nMasukan sisi : ";
 		int s;
 		cin >> s;
 		setX(s);
